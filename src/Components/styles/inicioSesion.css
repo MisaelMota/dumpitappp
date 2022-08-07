@@ -1,0 +1,96 @@
+
+
+
+.title-container-Sesion{
+    margin-left: 50px;
+    margin-top: 22px;
+}
+
+.name-container-Sesion{
+    font-size: 21px;
+}
+
+.inicio-Sesion-Formulario{
+    margin-top: 75px;
+    margin-left: 135px;
+}
+
+.inicio-Sesion-Titulo{
+    font-family: var(--fuente-primaria);
+    font-weight: bold;   
+    font-size: 28px;
+}
+
+.inicio-Sesion-Campos{
+    margin-top: 40px;
+}
+
+.correo-input-Container{
+    margin-top: 5px;   
+}
+
+.title-correo{
+    font-family: var(--fuente-primaria);
+}
+
+.title-contrasena{
+    font-family: var(--fuente-primaria);
+}
+
+.contrasena-input-Container{
+    margin-top: 5px;   
+}
+
+.input-Text-Sesion{
+
+    font-family: var(--fuente-primaria);
+    border-radius: var(--input-border-radius);
+    width: 401px;
+    height: 30px;
+    font-size: 17px;
+    padding: var(--input-padding);
+}
+
+.inicio-Sesion-Contrasena{
+    margin-top: 30px;
+}
+
+.input-Text-contrasena{
+
+    font-family: var(--fuente-primaria);
+    border-radius: 15px 15px;
+    width: 401px;
+    height: 30px;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+.inicio-Sesion-Footer{
+    margin-top: 25px;
+    display: flex;
+    
+}
+
+.link-Inicion-Sesion{
+    margin-left: 30px;
+    width: 35px;
+    height: 35px;
+    
+}
+
+.icon-google-link{
+    color: black;
+   font-size: 30px;
+}
+
+.btn-Inicio-Sesion{
+    font-family: var(--fuente-primaria);
+    border-radius: 15px 15px;
+    background-color: var(--color-Primario);
+    border: none;
+    font-size: 17px;
+    padding: 5px 5px;
+    width: 115px;
+    height: 35px;
+    font-weight: bold;
+}

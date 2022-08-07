@@ -1,0 +1,75 @@
+:root{
+    --fuente-primaria:'Josefin Slab', serif;
+    --input-padding:10px 10px;
+    --input-border-radius:15px 15px;
+    --color-Primario:#B3EAD6;
+}
+
+
+.title-container{
+    margin-left: 200px;
+    margin-top: 75px;
+}
+
+.name-container{
+    font-size: 21px;
+}
+
+.description-container{
+    font-family: var(--fuente-primaria);
+    margin-top: 25px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.top-container{
+  display: grid;
+  place-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 5px 0 0 -385px;
+}
+
+.Principal-Container {
+    width: 90%;
+    margin: auto;
+   
+}
+
+
+.Search-Container .input-text {
+    font-family: var(--fuente-primaria);
+    border-radius: var(--input-border-radius);
+    width: 532px;
+    height: 35px;
+    font-size: 17px;
+    padding: var(--input-padding);
+}
+
+.Text-Container {
+    font-family: var(--fuente-primaria);
+}
+
+
+
+.Search-Button-container {
+    display: flex;
+
+}
+
+.Button-Search {
+    width: 35px;
+    height: 35px;
+    
+    margin-left: 5px;
+    background-color: black;
+    border-radius: 5px 5px;
+
+
+}
+
+
+.icon-button{
+    color: white;
+}

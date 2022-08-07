@@ -1,0 +1,135 @@
+.title-container-Registro{
+    margin-left: 50px;
+    margin-top: 22px;
+}
+
+.name-container-Registro{
+    font-size: 21px;
+}
+
+.Registro-Formulario{
+    margin-top: 50px;
+    margin-left: 780px;
+}
+
+.Registro-Titulo{
+    font-family: var(--fuente-primaria);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Registro-title-nombre{
+    font-family: var(--fuente-primaria);
+    font-weight: 16px;
+}
+
+.Registro-input-Text-nombre{
+    font-family: var(--fuente-primaria);
+    border-radius: var(--input-border-radius);
+    padding: var(--input-padding);
+    width: 195px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.Registro-title-apellido{
+    font-family: var(--fuente-primaria);
+    font-weight: 16px;
+}
+
+.Registro-input-Text-apellido{
+    font-family: var(--fuente-primaria);
+    border-radius: var(--input-border-radius);
+    padding: var(--input-padding);
+    width: 195px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.Registro-Campos{
+    margin-top: 50px;
+}
+
+.registro-Nombre-apellido{
+    display: flex;
+        
+}
+
+
+.Registro-apellido{
+    margin-left: 10px;
+}
+
+.Registro-correo{
+    margin-top: 20px;
+    font-family: var(--fuente-primaria);
+    font-weight: 16px;
+}
+
+.Registro-input-Text-correo{
+    font-family: var(--fuente-primaria);
+    border-radius: var(--input-border-radius);
+    padding: var(--input-padding);
+    width: 374px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.texto-correo-container{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.Registro-contrasena{
+    margin-top: 20px;
+    font-family: var(--fuente-primaria);
+    font-weight: 16px;
+}
+
+.Registro-input-Text-contrasena{
+    font-family: var(--fuente-primaria);
+    border-radius: var(--input-border-radius);
+    padding: var(--input-padding);
+    width: 312px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.Registro-carrera{
+    margin-top: 20px;
+    font-family: var(--fuente-primaria);
+    font-weight: 16px;
+}
+
+.Registro-input-Text-carrera{
+    font-family: var(--fuente-primaria);
+    border-radius: var(--input-border-radius);
+    padding: var(--input-padding);
+    width: 415px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+
+.Registro-Footer{
+    margin-top: 25px;
+    display: flex;
+}
+
+.link-Registro{
+    margin-left: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+.btn-Registro{
+    font-family: var(--fuente-primaria);
+    border-radius: 15px 15px;
+    background-color: var(--color-Primario);
+    border: none;
+    font-size: 17px;
+    padding: 5px 5px;
+    width: 115px;
+    height: 35px;
+    font-weight: bold;
+}

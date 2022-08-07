@@ -1,7 +1,7 @@
 *{
-  box-sizing: border-box;/* forma de calcular correctamente las dimensiones de los elementos de htlm para que no se sumen paddings o borders*/
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;/* forma de calcular correctamente las dimensiones de los elementos de htlm para que no se sumen paddings o borders*/
+    padding: 0;
+    margin: 0;
 }
 
 
