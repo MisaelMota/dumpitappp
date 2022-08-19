@@ -12,6 +12,7 @@ const LOGIN_URL = '/sign_in'
 
 const InicioSesion = () => {
     const { setAuth } = useContext(AuthContext)
+    
 
     const userRef = useRef();
     const errRef = useRef();
@@ -43,6 +44,7 @@ const InicioSesion = () => {
             console.log(JSON.stringify(response?.data));
             const accessToken = response?.data?.token;
             setAuth({ email, password, accessToken })
+            localStorage.setItem('token', accessToken);
             setEmail('')
             setPassword('')
             setSuccess(true)

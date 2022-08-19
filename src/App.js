@@ -55,7 +55,7 @@ function App() {
                 <Route path='/TuPerfil' element={<PerfilUsuario />} />
                 <Route path='/Configuracion' element={<Configuracion />} />
                 <Route path='/statistics' element={<StatisticsPerfil />} />
-
+                <Route path='/perfilProfesor' element={<Profile/>} />
               </Routes>
 
             </> 

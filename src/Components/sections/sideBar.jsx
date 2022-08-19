@@ -50,11 +50,13 @@ function SideBar() {
                 </div>
 
                 <div className="notifications-container">
-                    <button className="button-notifications">
-                        <i className="notifications-Icon">
-                            <FaBell />
-                        </i>
-                    </button>
+                    <NavLink to="/perfilProfesor">
+                        <button className="button-notifications">
+                            <i className="notifications-Icon">
+                                <FaBell />
+                            </i>
+                        </button>
+                    </NavLink>
                 </div>
 
             </div>
