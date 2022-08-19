@@ -3,6 +3,10 @@
     --input-padding:10px 10px;
     --input-border-radius:15px 15px;
     --color-Primario:#B3EAD6;
+    --color-Sidebar:#CEEBF1;
+    --color-Sidebar-Detail:#F8F7F7;
+    --color-Sombreado-Secundario:#F5EEDB;
+    --color-boton-perfil:#464646;
 }
 
 
@@ -61,7 +65,7 @@
 .Button-Search {
     width: 35px;
     height: 35px;
-    
+    cursor: pointer;
     margin-left: 5px;
     background-color: black;
     border-radius: 5px 5px;

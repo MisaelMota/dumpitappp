@@ -3,7 +3,9 @@ import { IoSearchCircleOutline } from "react-icons/io5";
 
 
 function SesionHeader() {
+    
     return (
+        
 
         <div className="Principal-container-H-Sesion">
             <header className="header-container-Sesion">
@@ -15,13 +17,15 @@ function SesionHeader() {
                         </div>
 
                         <div className="icon-search-sesion-container">
-                            <i className="icon-search-sesion">
-                                <IoSearchCircleOutline />
-                            </i>
+                            <button className="button-search-icon-container">
+                                <i className="icon-search-sesion">
+                                    <IoSearchCircleOutline />
+                                </i>
+                            </button>
                         </div>
 
                         <div className="container-NameApp-sesion">
-                            
+
                             <h2 className="nameApp-sesion">Dump It</h2>
                         </div>
 
