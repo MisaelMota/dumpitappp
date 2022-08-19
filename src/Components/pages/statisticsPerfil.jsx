@@ -11,8 +11,8 @@ const RATE_URL = '/rate_professor'
 
 function StatisticsPerfil() {
     const seth = useContext(AuthProv)
-    const tr=true
-    
+    const tr = true
+
 
 
     const [subject, setSubject] = useState('')
@@ -25,29 +25,31 @@ function StatisticsPerfil() {
     const [difficulty, setDifficulty] = useState(0)
     const [errMsg, setErrorMsg] = useState('')
 
-    console.log(wouldTakeAgain)
 
-   
+
+
     const professorId = '62f5a3ff6845bd05cbec0943'
     const subjectCredits = 4
 
     const handleSubmit = async (e) => {
         e.preventDefault()
+        console.log(seth)
         try {
             const response = await axios.post(RATE_URL,
 
-                JSON.stringify({ subject, modality, userGrade, wouldTakeAgain, rate, tag, difficulty, professorId, subjectCredits }),
+                JSON.stringify({subject, modality, userGrade, wouldTakeAgain, rate, tag, difficulty, professorId, subjectCredits}),
                 {
                     headers:
                     {
                         'Content-Type': 'application/json',
-                        'Authorization': `Bearer: ${seth.accessToken}`
+                        'Authorization': `Bearer ${localStorage.getItem('token')}`
 
                     },
                     withCredentials: true
+
                 });
-            console.log(JSON.stringify(response?.data));
-            console.log(JSON.stringify(response))
+            console.log(response?.data);
+            console.log(response)
             setSubject('')
             setModality('')
             setUserGrade(0)
@@ -63,8 +65,8 @@ function StatisticsPerfil() {
                 setErrorMsg('Username Taken');
             } else {
                 setErrorMsg('Registration Failed')
-                console.log( subject,  modality,  userGrade, wouldTakeAgain, rate, tag, difficulty,  professorId,  subjectCredits)
-                console.log(typeof subject, typeof modality, typeof userGrade,typeof wouldTakeAgain,typeof rate,typeof tag,typeof difficulty, typeof professorId, typeof subjectCredits)
+                console.log(subject, modality, userGrade, wouldTakeAgain, rate, tag, difficulty, professorId, subjectCredits)
+                console.log(typeof subject, typeof modality, typeof userGrade, typeof wouldTakeAgain, typeof rate, typeof tag, typeof difficulty, typeof professorId, typeof subjectCredits)
             }
         }
     }
