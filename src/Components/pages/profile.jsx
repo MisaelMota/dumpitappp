@@ -34,7 +34,7 @@ function Profile() {
                 },params:{
                     professor_id:professorId
                 },
-                withCredentials: true
+                withCredentials: true 
 
             })
             .then(data => {setData(data.data)
